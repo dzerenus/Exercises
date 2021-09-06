@@ -1,0 +1,16 @@
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.csproj.AssemblyReference.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.AssemblyInfoInputs.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.AssemblyInfo.cs
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.csproj.CoreCompileInputs.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.exe
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.deps.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.runtimeconfig.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.runtimeconfig.dev.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\ref\Z07_264.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\bin\Debug\net5.0\Z07_264.pdb
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\ref\Z07_264.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.pdb
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z07_264\obj\Debug\net5.0\Z07_264.genruntimeconfig.cache

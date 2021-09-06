@@ -1,0 +1,16 @@
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.exe
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.deps.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.runtimeconfig.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.runtimeconfig.dev.json
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\ref\Z09_705.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\bin\Debug\net5.0\Z09_705.pdb
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.csproj.AssemblyReference.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.AssemblyInfoInputs.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.AssemblyInfo.cs
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.csproj.CoreCompileInputs.cache
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\ref\Z09_705.dll
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.pdb
+C:\Users\ShpriZZ\Desktop\Практика\C#\Z09_705\obj\Debug\net5.0\Z09_705.genruntimeconfig.cache

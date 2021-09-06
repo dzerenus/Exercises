@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Z06_334b/1.0.0": {
+        "runtime": {
+          "Z06_334b.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Z06_334b/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
