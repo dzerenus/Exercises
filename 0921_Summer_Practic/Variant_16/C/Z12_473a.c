@@ -1,25 +1,35 @@
-#include <stdio.h> // Работа с файлами и PrintF.
+#include <stdio.h> 
+#include <stdlib.h> 
+#define BUF 11 
 
-const char NAME[] = "Z12_file.txt";  // Имя файла.
+int main()
+{
 
-int main() {
-	int count = 0; // Счётчик чётных чисел.
+	int count = 0;
 
-	FILE *fp;              // Создаем файловый поток. 
-	fp = fopen(NAME, "r"); // Открываем файл для чтения.
+    char filename[] = "Z12_file.txt", temp[BUF]; 
+    FILE * stream; 
 
-	// Пока не достигнут конец файла.
-	while(feof(fp) == 0) {
-		char symb = fgetc(fp); // Читаем символ.
-		int num = symb - '0';  // Переводим в int.
+    errno_t err = fopen_s(&stream, filename, "r"); 
+    if (err != 0) printf("The file is not found!"); 
 
-		// Если число чётное, увеличиваем счётчик.
-		if (num % 2 == 0) count++;
-	}
+    else
+    {  
+        int number; 
+        while (!feof(stream))
+        {
+            fscanf(stream, "%s", temp, BUF); 
+            number = atoi(temp); 
+            
+            printf("%d\n", number);
 
-	printf("%d", count); // Выводим количество.
+            if (number % 2 == 0) count++;
+        }  
 
-	fclose(fp);           // Закрываем поток.
-	getchar(); getchar(); // Пауза.
-	return 0;             // Выход.
-}
+        fclose(stream); 
+    }  
+
+    printf("%d", count);
+    getchar(); getchar();
+    return 0; 
+ } 

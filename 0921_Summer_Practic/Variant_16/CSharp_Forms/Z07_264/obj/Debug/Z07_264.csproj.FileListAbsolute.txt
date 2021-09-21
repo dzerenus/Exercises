@@ -1,0 +1,10 @@
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\bin\Debug\Z07_264.exe.config
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\bin\Debug\Z07_264.exe
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\bin\Debug\Z07_264.pdb
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.csproj.AssemblyReference.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.MainForm.resources
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.Properties.Resources.resources
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.csproj.GenerateResource.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.csproj.CoreCompileInputs.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.exe
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\0921_Summer_Practic\Variant_16\CSharp_Forms\Z07_264\obj\Debug\Z07_264.pdb

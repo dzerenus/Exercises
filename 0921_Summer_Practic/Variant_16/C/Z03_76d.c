@@ -1,4 +1,6 @@
 #include <stdio.h>  // Printf, Scanf
+#include <math.h>   // Математика
+
 
 // Переменные для работы программы.
 int x, y, k, l, m, n;
@@ -29,13 +31,13 @@ int main() {
     }
 
     else {
-        if (k == m || l == n || k == n || l == m) {
+        if (k == m || l == n || (abs(n-l) == abs(m-k))) {
             printf("One Move!");
         }
 
         else {
             int hor = m - k;
-            int ver = l - n;
+            int ver = n - l;
 
             printf("Two Move!");
             printf("\nFirst: Go X on %d cells", hor);
