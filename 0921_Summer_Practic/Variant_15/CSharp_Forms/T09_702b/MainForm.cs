@@ -38,6 +38,14 @@ namespace T09_702b
                 while (DGMatrix.Rows.Count < n)
                     DGMatrix.Rows.Add();
             }
+
+            btnWork.Enabled = true;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 2 == 0)
+                    // ДОПИСАТЬ С ЭТОГО МЕСТА!!!!!
+            }
         }
     }
 }
