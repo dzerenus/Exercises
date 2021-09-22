@@ -32,14 +32,14 @@ namespace T09_702b
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.DGMatrix = new System.Windows.Forms.DataGridView();
-            this.tbINumbers = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tbN = new System.Windows.Forms.TextBox();
-            this.btnOkN = new System.Windows.Forms.Button();
-            this.btnWork = new System.Windows.Forms.Button();
             this.tbResult = new System.Windows.Forms.TextBox();
+            this.btnWork = new System.Windows.Forms.Button();
+            this.btnOkN = new System.Windows.Forms.Button();
+            this.tbN = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbINumbers = new System.Windows.Forms.TextBox();
+            this.DGMatrix = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGMatrix)).BeginInit();
@@ -83,14 +83,59 @@ namespace T09_702b
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Сама задача";
             // 
-            // label2
+            // tbResult
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(380, 284);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Число N:";
+            this.tbResult.Location = new System.Drawing.Point(10, 281);
+            this.tbResult.Name = "tbResult";
+            this.tbResult.ReadOnly = true;
+            this.tbResult.Size = new System.Drawing.Size(364, 26);
+            this.tbResult.TabIndex = 8;
+            // 
+            // btnWork
+            // 
+            this.btnWork.Location = new System.Drawing.Point(632, 280);
+            this.btnWork.Name = "btnWork";
+            this.btnWork.Size = new System.Drawing.Size(127, 28);
+            this.btnWork.TabIndex = 7;
+            this.btnWork.TabStop = false;
+            this.btnWork.Text = "Рассчитать";
+            this.btnWork.UseVisualStyleBackColor = true;
+            this.btnWork.Click += new System.EventHandler(this.btnWork_Click);
+            // 
+            // btnOkN
+            // 
+            this.btnOkN.Location = new System.Drawing.Point(499, 280);
+            this.btnOkN.Name = "btnOkN";
+            this.btnOkN.Size = new System.Drawing.Size(127, 28);
+            this.btnOkN.TabIndex = 6;
+            this.btnOkN.Text = "Принять N";
+            this.btnOkN.UseVisualStyleBackColor = true;
+            this.btnOkN.Click += new System.EventHandler(this.btnOkN_Click);
+            // 
+            // tbN
+            // 
+            this.tbN.Location = new System.Drawing.Point(455, 281);
+            this.tbN.MaxLength = 1;
+            this.tbN.Name = "tbN";
+            this.tbN.Size = new System.Drawing.Size(38, 26);
+            this.tbN.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 253);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Числа i:";
+            // 
+            // tbINumbers
+            // 
+            this.tbINumbers.Location = new System.Drawing.Point(74, 250);
+            this.tbINumbers.Name = "tbINumbers";
+            this.tbINumbers.ReadOnly = true;
+            this.tbINumbers.Size = new System.Drawing.Size(685, 26);
+            this.tbINumbers.TabIndex = 2;
             // 
             // DGMatrix
             // 
@@ -108,58 +153,14 @@ namespace T09_702b
             this.DGMatrix.Size = new System.Drawing.Size(753, 216);
             this.DGMatrix.TabIndex = 1;
             // 
-            // tbINumbers
+            // label2
             // 
-            this.tbINumbers.Location = new System.Drawing.Point(74, 250);
-            this.tbINumbers.Name = "tbINumbers";
-            this.tbINumbers.ReadOnly = true;
-            this.tbINumbers.Size = new System.Drawing.Size(685, 26);
-            this.tbINumbers.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 253);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Числа i:";
-            // 
-            // tbN
-            // 
-            this.tbN.Location = new System.Drawing.Point(455, 281);
-            this.tbN.MaxLength = 1;
-            this.tbN.Name = "tbN";
-            this.tbN.Size = new System.Drawing.Size(38, 26);
-            this.tbN.TabIndex = 5;
-            // 
-            // btnOkN
-            // 
-            this.btnOkN.Location = new System.Drawing.Point(499, 280);
-            this.btnOkN.Name = "btnOkN";
-            this.btnOkN.Size = new System.Drawing.Size(127, 28);
-            this.btnOkN.TabIndex = 6;
-            this.btnOkN.Text = "Принять N";
-            this.btnOkN.UseVisualStyleBackColor = true;
-            this.btnOkN.Click += new System.EventHandler(this.btnOkN_Click);
-            // 
-            // btnWork
-            // 
-            this.btnWork.Location = new System.Drawing.Point(632, 280);
-            this.btnWork.Name = "btnWork";
-            this.btnWork.Size = new System.Drawing.Size(127, 28);
-            this.btnWork.TabIndex = 7;
-            this.btnWork.TabStop = false;
-            this.btnWork.Text = "Рассчитать";
-            this.btnWork.UseVisualStyleBackColor = true;
-            // 
-            // tbResult
-            // 
-            this.tbResult.Location = new System.Drawing.Point(10, 281);
-            this.tbResult.Name = "tbResult";
-            this.tbResult.ReadOnly = true;
-            this.tbResult.Size = new System.Drawing.Size(364, 26);
-            this.tbResult.TabIndex = 8;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(380, 284);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Число N:";
             // 
             // MainForm
             // 
