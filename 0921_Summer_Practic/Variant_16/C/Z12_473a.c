@@ -20,8 +20,6 @@ int main()
         {
             fscanf(stream, "%s", temp, BUF); 
             number = atoi(temp); 
-            
-            printf("%d\n", number);
 
             if (number % 2 == 0) count++;
         }  

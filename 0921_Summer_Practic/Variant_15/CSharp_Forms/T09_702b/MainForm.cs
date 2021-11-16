@@ -70,7 +70,7 @@ namespace T09_702b
             for (int i = 0; i < cols; i++)
                 for (int j = 0; j < rows; j++)
                 {
-                    if (!Double.TryParse(DGMatrix[i, j].Value.ToString(), out nums[i, j]))
+                    if (DGMatrix[i, j].Value == null || !Double.TryParse(DGMatrix[i, j].Value.ToString(), out nums[i, j]))
                     {
                         MessageBox.Show("Ошибка ввода матрицы!");
                         return;
