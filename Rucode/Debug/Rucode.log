@@ -1,4 +1,5 @@
 ﻿  Rucode.cpp
-C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Rucode.cpp(19,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Rucode.cpp(69,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Rucode.cpp(20,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Rucode.cpp(61,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Rucode.cpp(63,23): warning C4018: <: несоответствие типов со знаком и без знака
   Rucode.vcxproj -> C:\Users\ShpriZZ\Documents\GitHub\Exercises\Rucode\Debug\Rucode.exe

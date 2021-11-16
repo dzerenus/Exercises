@@ -1,6 +1,7 @@
 ﻿#include <iostream>  // Ну ввод-вывод.
 #include <string>    // Ну строки.
 #include <vector>    // Ну векторы.
+#include <algorithm> // Ну сортировка.
 
 using namespace std;
 
@@ -31,30 +32,6 @@ vector<int> SplitStringToInts(const string& a)
     return nums;
 }
 
-string BinaryFind(int n, vector<int>& nums)
-{   
-    int size = nums.size();
-    int sIndex = 0;
-    int eIndex = size - 1;
-
-    while (1)
-    {
-        if (n == nums[sIndex]) return "YES";
-        if (n == nums[eIndex]) return "YES";
-
-        if (n < nums[sIndex]) return "NO";
-        if (n > nums[eIndex]) return "NO";
-
-        int c = (sIndex + eIndex) / 2;
-        
-        if (n < nums[c]) eIndex = c-1;
-        else if (n > nums[c]) sIndex = c+1;
-        else return "YES";
-
-        if (sIndex > eIndex) return "NO";
-    }
-}
-
 int main()
 {   
     // Блок ввода данных.
@@ -63,14 +40,28 @@ int main()
     getline(cin, i2);
     getline(cin, i3);
 
-    vector<int> numsA = SplitStringToInts(i2);
-    vector<int> numsB = SplitStringToInts(i3);
+    vector<int> nums = SplitStringToInts(i2);
+    sort(nums.begin(), nums.end());
 
-    for (int i = 0; i < numsB.size(); i++)
+    for (int i = 0; i < stoi(i3); i++)
     {
-        string res = BinaryFind(numsB[i], numsA);
-        cout << res << endl;
-    }
+        string input;
+        getline(cin, input);
+        vector<int> cmds = SplitStringToInts(input);
 
-    return 0;
+        int sindex = 0;
+        int eindex = 0;
+
+        if (cmds[1] < nums[0] || cmds[0] > nums[nums.size() - 1])
+        {
+            cout << 0 << endl;
+            continue;
+        }
+
+        while (sindex < nums.size() && nums[sindex] < cmds[0]) sindex++;
+        eindex = sindex;
+        while (eindex < nums.size() && nums[eindex] <= cmds[1]) eindex++;
+
+        cout << eindex - sindex << endl;
+    }
 }
