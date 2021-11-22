@@ -1,0 +1,14 @@
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.exe
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.deps.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.runtimeconfig.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.runtimeconfig.dev.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\bin\Debug\netcoreapp3.1\Program01.pdb
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.csproj.AssemblyReference.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.AssemblyInfoInputs.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.AssemblyInfo.cs
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.csproj.CoreCompileInputs.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.pdb
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\C#\Program01\obj\Debug\netcoreapp3.1\Program01.genruntimeconfig.cache
