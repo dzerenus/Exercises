@@ -26,24 +26,28 @@ namespace L06
             {
                 for (int i = 0; i < iData.GetLength(0); i++)
                 {
+                    // Собираем коэфициенты для подставления их в формулу расчёта X.
                     double sum = 0;
                     for (int j = 0; j < iData.GetLength(1) - 1; j++)
                         if (i != j) 
                             sum += xOne[j] * iData[i, j];
 
+                    // С помощью полученных данных, выражаем X.
                     xTwo[i] = (iData[i, iData.GetLength(1) - 1] - sum) / iData[i, i];
                 }
 
+                // Считаем количество X, для которых погрешность находится в допустимых пределах.
                 int c = 0;
                 for (int i = 0; i < iData.GetLength(0); i++)
                     if (xTwo[i] - xOne[i] < epsilon) c += 1;
 
+                // При достижении необходимой точности для всех значений, выходим из цикла.
+                // Иначе перемещаем значения X из одного массива в другой.
                 if (c == iData.GetLength(0)) break;
-                else 
-                    for (int i = 0; i < iData.GetLength(0); i++)
-                        xOne[i] = xTwo[i];
+                else xOne = xTwo;
             }
 
+            // Вывод результата на экран.
             Console.WriteLine("Решение: ");
             for (int i = 0; i < xTwo.Length; i++)
                 Console.WriteLine($"X{i + 1}: {xTwo[i]}");

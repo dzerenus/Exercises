@@ -1,0 +1,16 @@
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.exe
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.deps.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.runtimeconfig.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.runtimeconfig.dev.json
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\ref\L07.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\bin\Debug\net5.0\L07.pdb
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.csproj.AssemblyReference.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.AssemblyInfoInputs.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.AssemblyInfo.cs
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.csproj.CoreCompileInputs.cache
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\ref\L07.dll
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.pdb
+C:\Users\ShpriZZ\Documents\GitHub\Exercises\Zabelin_VMK20\L07\obj\Debug\net5.0\L07.genruntimeconfig.cache
