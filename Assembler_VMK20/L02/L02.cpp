@@ -2,24 +2,46 @@
 
 int main()
 {
-    static const int BASE = 10000;
-    const short ARSIZE = 10;
+    /*
+    * Лабораторная работа #2.
+    * 
+    * Задание:
+    * Разработать программу на встроенном Ассемблере в соответствии с заданием по вариантам.
+    * 
+    * Условия:
+    * На высоком уровне осуществляется только создание переменных, а также ввод и вывод
+    * их значений через консоль. Все остальные действия должны выполняться на Ассемблере.
+    * 
+    * Вариант 17:
+    * Дано целое число a.
+    * Не пользуясь никакими другими арифметическими операциями, кроме умножения
+    * получить a^32 за пять операций.
+    */
 
-    short tmp = 0;
+    unsigned long a = 2;
+    unsigned long a1, a2, a3, a4, a5, a6;
 
-    int digits[ARSIZE];
-    
     __asm
     {
-        mov ax, ARSIZE;
-        mov bx, 0;
-
-        cmp bx, ax;
-        jl Less;
-
-    Less:
-        mov digits[tmp], 0;
+        mov eax, a;
+        mov a1, eax;
+        mul eax;
+        mov a2, eax;
+        mul eax;
+        mov a3, eax;
+        mul eax;
+        mov a4, eax;
+        mul eax;
+        mov a5, eax;
+        mul eax;
+        mov a6, eax;
     }
 
-    std::cout << digits[0];
+    // Вывод каждого шага умножения.
+    std::cout << "a^1: " << a1 << std::endl;
+    std::cout << "a^2: " << a2 << std::endl;
+    std::cout << "a^4: " << a3 << std::endl;
+    std::cout << "a^8: " << a4 << std::endl;
+    std::cout << "a^16: " << a5 << std::endl;
+    std::cout << "a^32: " << a6 << std::endl;
 }

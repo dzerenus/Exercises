@@ -1,1 +1,1 @@
-C:\Users\ShpriZZ\Documents\GitHub\Exercises\Assembler_VMK20\L02\Debug\L02.exe
+C:\Users\ShpriZZ\Documents\Github\Exercises\Assembler_VMK20\L02\Debug\L02.exe
