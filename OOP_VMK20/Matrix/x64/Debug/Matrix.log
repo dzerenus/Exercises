@@ -1,0 +1,70 @@
+﻿  templates.cpp
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(86,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(82): message : во время компиляции функции-члена класс шаблон "TMatrix<int> TMatrix<int>::operator +(const TMatrix<int> &)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\templates.cpp(4): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TMatrix<int>"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(90,1): error C2109: для индекса требуется массив или указатель
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(90,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "const TMatrix<int>" (или приемлемое преобразование отсутствует)
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.h(22,5): message : может быть "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=int
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(90,1): message : при попытке сопоставить список аргументов "(const TMatrix<int>, int)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(101,1): error C2440: инициализация: невозможно преобразовать "TMatrix<int> *" в "TMatrix<int>"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(101,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(97): message : во время компиляции функции-члена класс шаблон "TMatrix<int> TMatrix<int>::operator -(const TMatrix<int> &)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(105,1): error C2109: для индекса требуется массив или указатель
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(105,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "const TMatrix<int>" (или приемлемое преобразование отсутствует)
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.h(22,5): message : может быть "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=int
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(105,1): message : при попытке сопоставить список аргументов "(const TMatrix<int>, int)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(78,1): error C2440: return: невозможно преобразовать "_Ty" в "T &"
+          with
+          [
+              _Ty=std::vector<int,std::allocator<int>>
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(78): message : во время компиляции функции-члена класс шаблон "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=int
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(90,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "const TMatrix<double>" (или приемлемое преобразование отсутствует)
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.h(22,5): message : может быть "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=double
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(90,1): message : при попытке сопоставить список аргументов "(const TMatrix<double>, int)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(101,1): error C2440: инициализация: невозможно преобразовать "TMatrix<double> *" в "TMatrix<double>"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(101,1): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(97): message : во время компиляции функции-члена класс шаблон "TMatrix<double> TMatrix<double>::operator -(const TMatrix<double> &)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(105,1): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "const TMatrix<double>" (или приемлемое преобразование отсутствует)
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.h(22,5): message : может быть "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=double
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(105,1): message : при попытке сопоставить список аргументов "(const TMatrix<double>, int)"
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(78,1): error C2440: return: невозможно преобразовать "_Ty" в "T &"
+          with
+          [
+              _Ty=std::vector<double,std::allocator<double>>
+          ]
+          and
+          [
+              T=double
+          ]
+C:\Users\ShpriZZ\Documents\Github\Exercises\OOP_VMK20\Matrix\TMatrix.cpp(78): message : во время компиляции функции-члена класс шаблон "T &TMatrix<T>::operator [](int)"
+          with
+          [
+              T=double
+          ]
+  TMatrix.cpp
+  Создание кода...
