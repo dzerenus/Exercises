@@ -15,7 +15,7 @@ void Bulk::Volume(double v)
 	this->volume = v;
 }
 
-const string Bulk::to_string()
+string Bulk::to_string()
 {
 	string res = this->Cargo::to_string();
 	res = "Bulk. " + res + " ";

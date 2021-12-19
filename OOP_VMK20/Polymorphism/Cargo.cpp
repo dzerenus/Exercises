@@ -27,7 +27,7 @@ void Cargo::Dangerous(short d)
 	this->dangerous = d;
 }
 
-const string Cargo::to_string()
+string Cargo::to_string()
 {
 	string res = "";
 	res += "Mass: " + std::to_string(mass) + " ";

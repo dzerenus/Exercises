@@ -19,17 +19,13 @@ void Piece::Count(int c)
 const Coordinates Piece::Size() { return this->size; }
 void Piece::Size(const Coordinates& s)
 {
-	if (s.X <= 0) throw invalid_argument("Invalid X!");
-	if (s.Y <= 0) throw invalid_argument("Invalid Y!");
-	if (s.Z <= 0) throw invalid_argument("Invalid Z!");
-
 	this->size = s;
 }
 
-const double Piece::GetPieceVolume() { return (size.X * size.Y * size.Z); }
+const double Piece::GetPieceVolume() { return size.X() * size.Y() * size.Z(); }
 const double Piece::GetPieceMass() { return this->Cargo::Mass() / count; }
 
-const string Piece::to_string()
+string Piece::to_string()
 {
 	string res = this->Cargo::to_string();
 	res = "Piece. " + res + " ";

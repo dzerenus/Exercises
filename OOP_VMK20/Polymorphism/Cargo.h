@@ -27,7 +27,7 @@ public:
 	const short Dangerous();
 
 	// Информация о классе в STRING.
-	const std::string to_string();
+	virtual std::string to_string();
 
 	// Конструктор.
 	Cargo(double m, int p, short d);

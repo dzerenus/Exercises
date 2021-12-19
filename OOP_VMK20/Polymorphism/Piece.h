@@ -29,7 +29,7 @@ public:
 	// GET массу одного элемента груза.
 	const double GetPieceMass();
 
-	const std::string to_string();
+	std::string to_string();
 
 	// Конструктор
 	Piece(int c, const Coordinates& s, double m, int p, short d);

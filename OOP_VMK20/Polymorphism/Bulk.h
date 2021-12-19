@@ -18,7 +18,7 @@ public:
 	void Volume(double v);
 
 	// Перегрузка родительного to_string.
-	const std::string to_string();
+	std::string to_string();
 
 	// Конструктор класса.
 	Bulk(double v, double m, int p, short d);
