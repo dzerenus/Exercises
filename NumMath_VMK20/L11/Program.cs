@@ -24,9 +24,9 @@ static class Program
         Console.WriteLine("-x^3 - 3x^2 - 5x + 4 = 0");
 
         var nf2 = new NFunction(
-            delegate (double x) { return -Math.Pow(x, 3) - 3 * Math.Pow(x, 2) - 5 * x + 4; },  // Функция.
-            delegate (double x) { return -3*Math.Pow(x, 2) - 6*x - 5; },                       // Первая производная.
-            delegate (double x) { return -6*x-6; }  // Вторая производная.
+            delegate (double x) { return -Math.Pow(x, 3) - 3 * Math.Pow(x, 2) - 5 * x + 4; }, // Функция.
+            delegate (double x) { return -3*Math.Pow(x, 2) - 6*x - 5; },                      // Первая производная.
+            delegate (double x) { return -6*x-6; }                                            // Вторая производная.
             );
 
         Console.WriteLine($"Найденные границы: {nf2.Borders.A}:{nf2.Borders.B}");
