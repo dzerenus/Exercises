@@ -27,8 +27,6 @@ public static class Finds
         // Если массив пустой, выходим.
         if (arr.Length == 0) return -1;
 
-        Array.Sort(arr); // Сортируем массив средставми языка.
-
         // Указываем начальные границы поиска.
         var l = 0;
         var r = arr.Length - 1;
