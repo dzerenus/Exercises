@@ -11,7 +11,6 @@ namespace Lab06
             // Массив для демонстрации работы.
             var a = new int[] { 5, 4, 3, 9, 7, 2, 5, 6, 7, 12, 4, 32, 56, 22 };
 
-
             Console.WriteLine($"Значение для поиска: {FindInt}\n");  // Значение поиска.
 
             Console.WriteLine("Массив: ");
