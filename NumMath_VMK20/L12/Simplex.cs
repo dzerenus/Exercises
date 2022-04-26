@@ -31,7 +31,7 @@ public class Simplex
 
         f = new double[] { d1.f, d2.f, d3.f };
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 1000; i++)
         {
             result = GetBResult();
             foreach (var v in vars) SetMark(v);
@@ -39,13 +39,16 @@ public class Simplex
             Console.WriteLine($"#{i + 1} ----------------------");
 
             var not = vars.FindLast(x => x.Mark < 0);
-            if (not is null) return;
+            if (not is null)
+            {
+                foreach (var v in vars) Console.WriteLine($"{v.Name} - {v.Mark}");
+                return;
+            }
 
             var index = GetMasterIndex(not);
             Replace(index, not);
             ReCalculate(not, index);
 
-            foreach (var v in vars) Console.WriteLine($"{v.Name} - {v.Values[2]}");
         }
 
 
@@ -129,12 +132,12 @@ public class Simplex
         for (int i = 0; i < col.Values.Length; i++)
         {
             if (i == index) continue;
-            var mul = col.Values[i] * -1;
-            f[i] += f[index] * mul;
+            var mul = col.Values[i];
+            f[i] -= f[index] * mul;
 
             foreach (var nb in nonbasises)
             {
-                nb.Values[i] += nb.Values[index] * mul;
+                nb.Values[i] -= nb.Values[index] * mul;
             }
         }
 
